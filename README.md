@@ -1,9 +1,5 @@
 **RxJava 리액티브 프로그래밍 (006955)** :: 
-
-![RxJava Reactive Programming Cover](./document/images/cover_front.png)
-
-<img src="./document/images/cover_front.png" width="400px">
-<img src="./document/images/cover_solid.png" width="400px">
+<img src="./document/images/cover_front.png" width="300px"><img src="./document/images/cover_solid.png" width="400px">
 
 |표지|입체 이미지|
 |---|---|
