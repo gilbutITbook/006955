@@ -9,7 +9,7 @@
 ###  대상 버전
 
 - JDK 8 이상
-- RxJava 2.2.6 
+- RxJava 2.2.6 이상
 - Reactive Streams 1.0.2
 - JUnit 4.12
 
