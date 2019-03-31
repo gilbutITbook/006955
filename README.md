@@ -1,5 +1,4 @@
 **RxJava 리액티브 프로그래밍 (006955)** :: 
-<img src="./document/images/cover_solid.png" width="400px">
 ![RxJava 리액티브 프로그래밍 Cover](./document/images/cover_solid.png)
 
 # RxJava 리액티브 프로그래밍
