@@ -6,12 +6,12 @@
 
 <RxJava 리액티브 프로그래밍> 의 소스 코드를 이클립스에서 빌드하는 방법과 실행 방법을 소개합니다.
 
-- 대상 버전
+###  대상 버전
 
-• JDK 8 이상
-• RxJava 2.2.5
-• Reactive Streams 1.0.2
-• JUnit 4.12
+- JDK 8 이상
+- RxJava 2.2.5
+- Reactive Streams 1.0.2
+- JUnit 4.12
 
 
 ### 소스 코드 다운로드하여 프로젝트 환경 구성하기 
