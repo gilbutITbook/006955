@@ -1,4 +1,5 @@
-**RxJava 리액티브 프로그래밍 (006955)** :: 
+**RxJava 리액티브 프로그래밍 (006955)** :: [정오표](#정오표)
+
 ![RxJava 리액티브 프로그래밍 Cover](./document/images/cover_solid.png)
 
 # RxJava 리액티브 프로그래밍
