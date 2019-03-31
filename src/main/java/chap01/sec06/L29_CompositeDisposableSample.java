@@ -13,7 +13,7 @@ public class L29_CompositeDisposableSample {
     
     compositeDisposable.add(Flowable.range(1, 3)
         // 구독 해지 시 로그를 출력한다
-        .doOnCancel(() -> System.out.println("No.1 canceld"))
+        .doOnCancel(() -> System.out.println("No.1 canceled"))
         // 비동기로 실행한다
         .observeOn(Schedulers.computation())
         // 구독한다
@@ -28,7 +28,7 @@ public class L29_CompositeDisposableSample {
     
     compositeDisposable.add(Flowable.range(1, 3)
         // 구독 해지 시 로그를 출력한다
-        .doOnCancel(() -> System.out.println("No.2 canceld"))
+        .doOnCancel(() -> System.out.println("No.2 canceled"))
         // 비동기로 실행한다
         .observeOn(Schedulers.computation())
         // 구독한다

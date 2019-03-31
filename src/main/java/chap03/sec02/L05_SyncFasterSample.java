@@ -9,7 +9,7 @@ public class L05_SyncFasterSample {
   
   public static void main(String[] args) throws Exception {
     Flowable.interval(1000L, TimeUnit.MILLISECONDS)
-        // デ데이터를 통지할 때의 시스템 시각을 출력한다
+        // 데이터를 통지할 때의 시스템 시각을 출력한다
         .doOnNext(data -> System.out
             .println("emit: " + System.currentTimeMillis() + "밀리초: " + data))
         // 구독한다

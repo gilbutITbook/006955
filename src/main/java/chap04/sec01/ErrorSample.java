@@ -10,7 +10,7 @@ public class ErrorSample<T> {
     
     Flowable
         // 에러를 통지하는 Flowable을 생성한다
-        .error(new Exception("例外発生"))
+        .error(new Exception("예외 발생"))
         // 구독을 시작한다
         .subscribe(new DebugSubscriber<>());
   }

@@ -19,7 +19,7 @@ public class RepeatWhenSample1 {
                   // 통지 시점을 늦춘다
                   .delay(1000L, TimeUnit.MILLISECONDS)
                   // 2번 반복한다
-                  .take(3)
+                  .take(2)
                   // 통지 시점에 정보를 출력한다  
                   .doOnNext(data -> System.out.println("emit: " + data))
                   .doOnComplete(() -> System.out.println("complete"));

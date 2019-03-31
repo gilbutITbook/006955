@@ -21,9 +21,6 @@ public class RepeatUntilSample {
             .repeatUntil(() -> {
               // 호출 시점에 출력한다
               System.out.println("called");
-              System.out.println(startTime);
-              System.out.println(System.currentTimeMillis());
-              System.out.println(System.currentTimeMillis() - startTime);
               // 처리를 시작하고 500밀리초가 될 때까지 반복한다
               return System.currentTimeMillis() - startTime > 500L;
             });

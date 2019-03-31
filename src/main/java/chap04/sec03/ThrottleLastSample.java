@@ -15,7 +15,7 @@ public class ThrottleLastSample {
             // 9건까지 통지한다
             .take(9)
             // 간격 내 가장 마지막 데이터를 통지한다
-            .throttleLast(200L, TimeUnit.MILLISECONDS);
+            .throttleLast(1000L, TimeUnit.MILLISECONDS);
     
     // 구독한다
     flowable.subscribe(new DebugSubscriber<>());

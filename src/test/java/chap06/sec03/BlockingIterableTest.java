@@ -68,7 +68,7 @@ public class BlockingIterableTest {
     assertThat(iterator.next(), is(1L));
     assertThat(iterator.next(), is(2L));
     
-    // 완료 ㅎ에 데이터를 얻는다
+    // 완료 후에 데이터를 얻는다
     iterator.next();
   }
   
@@ -100,7 +100,7 @@ public class BlockingIterableTest {
   }
   
   @Test
-  public void 데이터가없을떄Iterable로변환하기() {
+  public void 데이터가없을때Iterable로변환하기() {
     // 받아온 결과
     Iterable<Long> result =
         // Flowable을 생성한다
@@ -116,7 +116,7 @@ public class BlockingIterableTest {
   }
   
   @Test(expected = MissingBackpressureException.class)
-  public void バッファを超した通知を行わせる() throws Exception {
+  public void 버퍼크기를초과할때통지하기() throws Exception {
     // 받아온 결과
     Iterable<Long> result =
         // Flowable을 생성한다

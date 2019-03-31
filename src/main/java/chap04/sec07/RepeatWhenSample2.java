@@ -14,7 +14,7 @@ public class RepeatWhenSample2 {
         // Flowable을 생성한다
         Flowable.interval(100L, TimeUnit.MILLISECONDS)
             // 3건까지 통지한다
-            .take(2)
+            .take(3)
             // 반복 통지를 제어한다
             .repeatWhen(completeHandler -> {
               return completeHandler
